@@ -14,6 +14,7 @@
     "@testing-library/jest-dom": "^6.5.0",
     "@testing-library/react": "^16.0.1",
     "@testing-library/user-event": "^14.5.2",
+    "@types/jest": "^29.5.12",
     "@types/node": "^22.5.4",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
@@ -37,8 +38,8 @@
     "preview": "vite preview",
     "testp": "playwright test --trace on",
     "testp:report": "playwright test show-report",
-    "testj": "vitest",
-    "testj:ui": "vitest --ui",
+    "testv": "vitest",
+    "testv:ui": "vitest --ui",
     "coverage": "vitest run --coverage"
   }
 }

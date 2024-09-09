@@ -10,13 +10,13 @@ import react from "@vitejs/plugin-react-swc";
 export default defineConfig({
   plugins: [react()],
   test: {
-　　　　　　　　// テストに関するAPIをグローバルに設定
+    // テストに関するAPIをグローバルに設定
     globals: true,
     // テスト環境の設定
     environment: "jsdom",
     // テストの設定ファイル
-    setupFiles: "./src/testj/setup.ts",
-　　　　　　　　// CSSファイルを処理する
+    setupFiles: "./src/testv/setup.ts",
+    // CSSファイルを処理する
     css: true,
     // テストのカバレッジを出力する設定
     coverage: {
@@ -24,7 +24,7 @@ export default defineConfig({
       provider: "v8",
       exclude: [
         ...(configDefaults.coverage.exclude as string[]),
-        "src/testj",
+        "src/testv",
         "src/main.tsx",
       ],
     },
