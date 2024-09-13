@@ -1,0 +1,29 @@
+.Pagination {
+  width: 100%;
+  margin: 10px;
+  text-align: center;
+}
+
+.PagiNation-page {
+  text-align: center;
+  display: inline-block;
+}
+
+.Pagination-button {
+  width: 60px;
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+  border: 2px solid #000000;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  display: inline-block;
+}
+
+.Pagination-button--disable {
+  display: none;
+  width: 60px;
+  margin: 5px;
+  padding: 5px;
+  display: inline-block;
+}

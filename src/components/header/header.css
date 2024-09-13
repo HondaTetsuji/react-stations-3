@@ -1,0 +1,25 @@
+.header {
+  width: 100%;
+  height: 70px;
+  background-color: #32479E;
+  color: #ffffff;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+
+}
+
+.edit-button {
+  color: #ffffff;
+  margin: auto 25px auto auto;
+
+}
+
+.sign-out-button {
+  color: #ffffff;
+  margin: auto 25px auto auto;
+
+}

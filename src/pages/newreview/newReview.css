@@ -1,0 +1,48 @@
+.new-review {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.review-form {
+  margin: 25px 0;
+}
+
+.review-title-label,
+.review-url-label,
+.review-detail-label,
+.review-text-label {
+  color: #555555;
+}
+
+.title-input,
+.url-input,
+.detail-input,
+.text-input {
+  width: 100%;
+  font-size: large;
+  height: 30px;
+  margin-bottom: 25px;
+}
+
+.post-rebiew-button {
+  margin: 2px;
+  background-color: #242f9b;
+  color: #ffffff;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.home-button {
+  margin: 2px;
+  border: 2px solid #000000;
+  background-color: #f5f5f5;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  float: right;
+}
+
+.error-message {
+  color: #ff3333;
+}
